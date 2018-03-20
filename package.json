@@ -17,10 +17,7 @@
   },
   "homepage": "https://github.com/sarachour/saraland",
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "materialize-css": "^0.100.2"
   },
-  "devDependencies": {
-    "babel-core": "^6.26.0"
-  }
+  "devDependencies": {}
 }
