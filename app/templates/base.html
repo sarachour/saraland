@@ -23,7 +23,7 @@
 <body>
 	<nav>
 	<div class="nav-wrapper">
-	<a href="#" class="brand-logo">SaraLand</a>
+	<a href="/" class="brand-logo">SaraLand</a>
 	<ul id="nav-mobile" class="right hide-on-med-and-down">
 		{% for entry in nav %}
 		<li><a href="{{ url_for(entry.url) }}">{{ entry.name }}</a></li>
@@ -31,7 +31,17 @@
 	</ul>
 	</div>
 	</nav>
+	<main>
+		{% block main %} MAIN {% endblock %}
+	</main>
+	<footer class="page-footer">
+		<div class="footer-copyright">
+			<div class="container">
+				2018 Copyright
+			</div>
+		</div>
 
+	</footer>
 </body>
 </html>
 
